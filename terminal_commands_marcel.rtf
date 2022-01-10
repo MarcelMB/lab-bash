@@ -1,0 +1,194 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-Bold;
+\f3\fswiss\fcharset0 Helvetica;\f4\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 1.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b0\fs22 \cf2 \CocoaLigature0 (base) NROs-MBP:lab-bash test$ echo "Hello world"\
+Hello world\
+\
+
+\f2\b 2.
+\f1\b0 \
+\
+(base) NROs-MBP:lab-bash test$ mkdir new_dir\
+\
+
+\f2\b 3.
+\f1\b0 \
+\
+(base) NROs-MBP:lab-bash test$ ls\
+exercices	inputs		lorem		lorem-copy	new_dir		outputs		readme.md\
+(base) NROs-MBP:lab-bash test$ rmdir new_dir\
+(base) NROs-MBP:lab-bash test$ ls\
+exercices	inputs		lorem		lorem-copy	outputs		readme.md\
+\
+
+\f2\b 4.
+\f1\b0 \
+\
+(base) NROs-MBP:lab-bash test$ cp lorem/sed.txt lorem-copy/sed.txt\
+(base) NROs-MBP:lab-bash test$ cd lorem-copy\
+(base) NROs-MBP:lorem-copy test$ ls\
+dummy_file.txt	sed.txt\
+
+\f0\b\fs24 \cf0 \CocoaLigature1 \
+5.\
+\
+
+\f1\b0\fs22 \cf2 \CocoaLigature0 (base) NROs-MBP:lab-bash test$ cp lorem/at.txt lorem-copy/; cp lorem/lorem.txt lorem-copy/\
+(base) NROs-MBP:lab-bash test$ cd lorem-copy\
+(base) NROs-MBP:lorem-copy test$ ls\
+at.txt		dummy_file.txt	lorem.txt	sed.txt\
+\
+
+\f2\b 6.
+\f1\b0 \
+\
+(base) NROs-MBP:lab-bash test$ cd lorem\
+(base) NROs-MBP:lorem test$ cat sed.txt\
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, \
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, \
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, \
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. \
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, \
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus\
+\
+
+\f2\b 7.
+\f1\b0 \
+\
+(base) NROs-MBP:lorem test$ cat at.txt; cat lorem.txt\
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum \
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non \
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga. \
+Et harum quidem rerum facilis est ET expedita distinctio. \
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod \
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. \
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET \
+ut ET voluptates repudiandae sint ET molestiae non recusandae. \
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores \
+alias consequatur aut perferendis doloribus asperiores repellat\
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\
+\
+
+\f2\b 8.
+\f1\b0 \
+\
+(base) NROs-MBP:lorem-copy test$ head -3 sed.txt\
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, \
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,\
+\
+
+\f2\b 9.\
+
+\f1\b0 \
+(base) NROs-MBP:lorem-copy test$ tail -3 sed.txt\
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, \
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus\
+\
+
+\f2\b 10.
+\f1\b0 \
+\
+(base) NROs-MBP:lorem-copy test$ echo "Homo homini lupus" >> sed.txt\
+\
+
+\f2\b 11.
+\f1\b0 \
+\
+NROs-MBP:lorem-copy test$ tail -3 sed.txt\
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus\
+Homo homini lupus\
+\
+
+\f2\b 12.
+\f1\b0 \
+\
+(base) NROs-MBP:lorem test$ sed 's/ET/et/g' at.txt\
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum \
+deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non \
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. \
+Et harum quidem rerum facilis est et expedita distinctio. \
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod \
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. \
+Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet \
+ut et voluptates repudiandae sint et molestiae non recusandae. \
+Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores \
+alias consequatur aut perferendis doloribus asperiores repellat\
+\
+
+\f2\b 13.
+\f1\b0 \
+\
+(base) NROs-MBP:lorem test$ id -un\
+test\
+\
+\
+
+\f0\b\fs24 \cf0 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+14. \
+
+\f3\b0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \CocoaLigature0 (base) NROs-MBP:lab-bash test$ pwd\
+/Users/test/lab-bash\
+\
+
+\f2\b 15.
+\f1\b0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+(base) NROs-MBP:lab-bash test$ cd lorem\
+(base) NROs-MBP:lorem test$ find . -type f -name "*.txt"\
+./at.txt\
+./lorem.txt\
+./sed.txt\
+\
+
+\f2\b 16.
+\f1\b0 \
+\
+(base) NROs-MBP:lorem test$ cat sed.txt\
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, \
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. \
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, \
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, \
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. \
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, \
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, \
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus\
+(base) NROs-MBP:lorem test$ wc -l sed.txt\
+       9 sed.txt\
+\
+
+\f2\b 17.
+\f1\b0 \
+\
+(base) NROs-MBP:lab-bash test$ find . -type f -name "lorem*" \
+./lorem-copy/lorem.txt\
+./lorem/lorem-copy\
+./lorem/lorem.txt\
+
+\f4\fs26 \cf3 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec3 \
+}
